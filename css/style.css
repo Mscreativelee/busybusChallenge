@@ -1,0 +1,149 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+* {
+	box-sizing: border-box;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	background-color: #444;
+	font-family: Roboto regular;
+}
+
+
+h2{
+  font-family: Roboto regular;
+	font-size: 16px;
+  font-weight: 500;
+	color: #575757;
+  display:block;
+	padding:15px 0 5px 55px;
+  }
+
+ul.busInfo {
+	display: inline-block;
+	padding: 8px 0 0 0;
+}
+
+li {
+	font-size: 14px;
+	line-height: 1.2em;
+	font-weight: 600;
+	padding-left: 55px;
+	color: #212121;
+}
+
+.frequency {
+	display:block;
+	width: 300px;
+	padding: 2px 0 5px 50px;
+	}
+
+p {
+		font-size: 14px;
+		padding: 0 0 1px 5px;
+
+}
+.hightlightInfo {
+	font-size: 18px;
+	font-weight: bolder;
+}
+img {
+	width: 100%;
+}
+
+.statusBar {
+	margin: 0 auto;
+	background-image: url(/images/statusAll.png);
+	background-size: cover;
+	}
+
+	.enclose-icon {
+	display:inline-block;
+	width: 40px;
+  height: 35px;
+	padding:3px;
+	margin: 2px 0 0 100px;
+	}
+
+	.enclose-arrows {
+	display:inline-block;
+	width: 24px;
+	height: 24px;
+	padding: 3px;
+	margin: 0 0 10px 110px;
+}
+
+.routes:hover {
+  background-color: #E2E7EE;
+}
+
+
+.content{
+	display: inline-block;
+	width: 195px;
+	height:	85px;
+	margin: 1px;
+}
+
+.container {
+  margin: 0 auto;
+  width:360px;
+	}
+
+
+.buslist {
+	background-color: #f9f9f9;
+	width: 360px;
+	box-sizing: border-box;
+}
+.routes{
+border-bottom: 1px solid #808080;
+clear:both;
+height: 110px;
+}
