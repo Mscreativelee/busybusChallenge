@@ -2,138 +2,137 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title></title>
-<link rel="stylesheet" href="css/style.css">
+  <title>busy bus second screen</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
   </head>
 <body>
   <section class="container">
-    <div class="statusBar"><img src="images/statusAll.png" alt="image of status bar"/></div>
-    <section class="buslist">
-      <div class="routes">
-        <div class="content">
-          <h2 class="headline">Eastbound</h2>
-          <ul class="busInfo">
+    <div class="entireBar">
+      <div class="statusBar"><img src="images/statusBarOne.png" alt="image of status bar"/></div>
+      <div class="searchcontent">
+        <img src="images/arrowLeft1.png" alt="image of arrow key stroke"/></div>
+        <h2 class="searchBarText">Washington</h2>
+        <div class="searchcontent"><img src="images/gps_fixed.png"></div>
+      </div> <!-- code for the search and status bar ends here-->
+      <section class="buslist"><!-- bus routes and information begins here-->
+        <div class="routes"><!--container for bus information-->
+          <div class="content">
+            <h2 class="headline">Eastbound</h2>
+            <ul>
             <li>60</li>
-            <li>Randolph/Harbor Dr</li>
-          </ul>
+            <li><span class="deemphasize">4:30 - 4:45 p.m.</span></li>
+              <li>Randolph/Harbor Dr</li>
+            </ul>
+          </div>
+  <div class="enclose-arrows">
+    <img src="images/arrow_right.png" class="icon-images" alt="arrow points right"/></div>
+    <div class="frequency">
+      <p> Service Frequency : Every<span class="hightlightInfo"> 20<span> min</p>
+      </div>
+    </div> <!-- 1st bus ends here-->
+    <div class="routes">
+      <div class="content">
+        <ul class="busWithOutFreq">
+          <li>124</li>
+          <li><span class="deemphasize">4:45 - 4:55 p.m.<span></li>
+          <li>Navy Pier</li>
+        </ul>
+      </div>
+      <div class="enclose-arrows">
+        <img src="images/arrow_right.png" class="icon-images" alt="arrow points right"/></div>
+        <div class="frequency">
+          <p> Service Frequency : Every<span class="hightlightInfo"> 10<span> min</p>
+          </div>
+        </div><!-- 2nd bus ends here-->
+        <div class="routes">
+          <div class="content">
+            <h2 class="headline">Northbound</h2>
+            <ul>
+              <li>151</li>
+              <li><span class="deemphasize">4:55 - 5:05 p.m.</span></li>
+              <li>Devon/Clark</li>
+            </ul>
+          </div>
+      <div class="enclose-arrows">
+        <img src="images/arrow_right.png" class="icon-images" alt="arrow points right"/></div>
+        <div class="frequency">
+          <p> Service Frequency : Every <span class="hightlightInfo">16 min<span>
+          </div>
+        </div><!-- 3rd bus ends here-->
+        <div class="routes">
+          <div class="content">
+            <h2 class="headline">Southbound</h2>
+            <ul>
+              <li>J14</li>
+              <li><span class="deemphasize">5:15 - 5:25 p.m.</span></li>
+              <li>103rd/Stony Island</li>
+            </ul>
           </div>
           <div class="enclose-arrows">
             <img src="images/arrow_right.png" class="icon-images" alt="arrow points right"/></div>
-          <div class="frequency">
-          <p> Service Frequency : Every<span class="hightlightInfo"> 20<span> min</p>
-          </div>
-
-        </div>
-      </div>
-      <div class="routes">
-        <div class="content">
-              <h2 class="headline">Eastbound</h2>
-              <ul class="busInfo">
-                <li>124</li>
-            <li>Navy Pier</li>
-          </ul>
-        </div>
-        <div class="enclose-arrows">
-          <img src="images/arrow_right.png" class="icon-images" alt="arrow points right"/></div>
-          <div class="frequency">
-          <p> Service Frequency : Every<span class="hightlightInfo"> 10<span> min</p>
-          </div>
-        </div>
-      </div>
-      <div class="routes">
-        <div class="content">
-          <h2 class="headline">Northbound</h2>
-          <ul class="busInfo">
-            <li>151</li>
-            <li>Devon/Clark</li>
-          </ul>
-        </div>
-        <div class="enclose-arrows">
-          <img src="images/arrow_right.png" class="icon-images" alt="arrow points right"/></div>
-          <div class="frequency">
-          <p> Service Frequency : Every <span class="hightlightInfo">16 min<span>
-          </div>
-        </div>
-      </div>
-      <div class="routes">
-        <div class="content">
-          <h2 class="headline">Southbound</h2>
-          <ul class="busInfo">
-            <li>J14</li>
-            <li>103rd/Stony Island</li>
-          </ul>
-        </div>
-        <div class="enclose-arrows">
-          <img src="images/arrow_right.png" class="icon-images" alt="arrow points right"/></div>
-          <div class="frequency">
-          <p> Service Frequency : Every <span class="hightlightInfo"> 15 min<span></p>
-          </div>
-        </div>
-      </div>
-      <div class="routes">
-        <div class="content">
-          <h2 class="headline">Southbound</h2>
-          <ul class="busInfo">
-            <li>124 </li>
-            <li>Navy Pier</li>
-          </ul>
-        </div>
-        <div class="enclose-arrows">
-          <img src="images/arrow_right.png" class="icon-images" alt="arrow points right"/></div>
-          <div class="frequency">
-          <p> Service Frequency : Every <span class="hightlightInfo"> 10 min<span></p>
-          </div>
-        </div>
-      </div>
-      <div class="routes">
-        <div class="content">
-          <h2 class="headline">Reroute</h2>
-          <ul class="busInfo">
-            <li>6x</li>
-            <li>Jackson Park Express</li>
-          </ul>
-        </div>
-        <div class="enclose-icon">
-          <img src="images/notAvail.png" class="icon-images" alt="not available icon"/></div>
-        </div>
-      <div class="routes">
-        <div class="content">
-          <h2 class="headline">Reroute</h2>
-          <ul class="busInfo">
-            <li>4</li>
-            <li>Cottage Grove</li>
-          </ul>
-        </div>
-        <div class="enclose-icon">
-          <img src="images/infoGray.png" class="icon-images" alt="arrow points right"/></div>
-        </div>
-        <div class="routes">
-        <div class="content">
-            <h2>Out of Service</h2>
-            <ul class="busInfo">
-          <li>20</li>
-          <li>Madison</li>
-          </ul>
-          </div>
-          <div class="enclose-icon">
-            <img src="images/infoGray.png"  class="icon-images" alt="arrow points right"/></div>
-          </div>
-          <div class="routes">
-            <div class="content">
-              <h2>Out of Service</h2>
-              <ul class="busInfo">
-                <li>157</li>
-                <li>Streeterville/Taylor</li>
-              </ul>
-            </div>
-            <div class="enclose-icon">
-              <img src="images/infoGray.png" class="icon-images" alt="arrow points right"/></div>
-          </div>
-      </div>
-      </div>
-      <div class="bottomNavBars"><img src="images/bottomNavBar.png"alt="image of status bar"/>
-      </div>
-      </section>
-    </section>
-  </body>
-</html>
+            <div class="frequency">
+              <p> Service Frequency : Every <span class="hightlightInfo"> 15 min<span></p>
+              </div>
+            </div><!-- 4th bus ends here-->
+            <div class="routes">
+              <div class="content">
+                <ul class="busWithOutFreq">
+                  <li>124 </li>
+                  <li><span class="deemphasize">5:15 - 5:25 p.m.</span></li>
+                  <li>Navy Pier</li>
+                </ul>
+              </div>
+              <div class="enclose-arrows">
+                <img src="images/arrow_right.png" class="icon-images" alt="arrow points right"/></div>
+                <div class="frequency">
+                  <p> Service Frequency : Every <span class="hightlightInfo"> 10 min<span></p>
+                  </div>
+                </div><!-- 5th bus ends here-->
+                <div class="routes">
+                  <div class="content">
+                    <h2>Reroute</h2>
+                    <ul class="rerouteInfo">
+                      <li>6x</li>
+                      <li>Jackson Park Express</li>
+                    </ul>
+                  </div>
+                  <div class="enclose-icon">
+                    <img src="images/notAvail.png" class="icon-images" alt="not available icon"/></div>
+                  </div><!-- 6th bus ends here-->
+                  <div class="routes">
+                    <div class="content">
+                      <ul class="busWithOutService">
+                        <li>4</li>
+                        <li>Cottage Grove</li>
+                      </ul>
+                    </div>
+                    <div class="enclose-icon">
+                      <img src="images/infoGray.png" class="icon-images" alt="arrow points right"/></div>
+                    </div><!-- 7sth bus ends here-->
+                    <div class="routes">
+                      <div class="content">
+                        <ul class="busWithOutService">
+                          <li>20</li>
+                          <li>Madison</li>
+                        </ul>
+                      </div>
+                      <div class="enclose-icon">
+                        <img src="images/infoGray.png"  class="icon-images" alt="arrow points right"/></div>
+                      </div><!-- 8th bus ends here-->
+                      <div class="routes">
+                        <div class="content">
+                          <ul class="busWithOutService">
+                            <li>157</li>
+                            <li>Streeterville/Taylor</li>
+                          </ul>
+                        </div>
+                        <div class="enclose-icon">
+                          <img src="images/infoGray.png" class="icon-images" alt="arrow points right"/></div>
+                        </div><!-- 9th bus ends here-->
+                        <div class="bottomBar"><img src="images/navBottom.png"alt="image of status bar"/></div>
+                      </section>
+                    </section>
+                  </body>
+                  </html>

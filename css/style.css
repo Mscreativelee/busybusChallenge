@@ -1,140 +1,164 @@
-/* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-* {
-	box-sizing: border-box;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
+/* Code for the  busy bus  */
 
 body {
 	background-color: #444;
-	font-family: Roboto regular;
+	font-family: 'Roboto', sans-serif;
 }
-
+/* code for the texts */
 
 h2{
-  font-family: Roboto regular;
-	font-size: 16px;
+  font-size: 16px;
   font-weight: 500;
 	color: #575757;
   display:block;
-	padding:15px 0 5px 55px;
-  }
+	padding: 1px 0 0 25px;
+}
 
-ul.busInfo {
-	display: inline-block;
-	padding: 8px 0 0 0;
+
+h2.searchBarText {
+	color: #fff;
+	font-size: 20px;
+	display:inline-block;
+	padding: 0 78px 0 25px;
+	border-bottom: 3px solid #81c784;
+}
+
+ul {
+	list-style-type: none;
+  float: right;
+  padding: 0 0 4px 30px;
+	margin: 0 auto;
 }
 
 li {
 	font-size: 14px;
-	line-height: 1.2em;
+	line-height: 1.3em;
 	font-weight: 600;
-	padding-left: 55px;
 	color: #212121;
 }
 
-.frequency {
-	display:block;
-	width: 300px;
-	padding: 2px 0 5px 50px;
-	}
+
 
 p {
-		font-size: 14px;
-		padding: 0 0 1px 5px;
-
+font-size: 14px;
+padding: 2px 0 1px 5px;
+margin: 1px;
+padding: 5px 0 15px 30px;
 }
+/* code for the classes of the ul, li and p */
+
+.busWithOutFreq {
+	list-style-type: none;
+  float: right;
+  padding: 25px 0 4px 30px;
+	margin: 0 auto;
+}
+
+.busWithOutService {
+	list-style-type: none;
+  float: right;
+  padding:50px 0 4px 30px;
+	margin: 0 auto;
+}
+
+.rerouteInfo {
+	list-style-type: none;
+  float: right;
+  padding:  10px 0 4px 30px;
+	margin: 0 auto;
+}
+.deemphasize {
+	font-weight:500;
+}
+
+
 .hightlightInfo {
 	font-size: 18px;
 	font-weight: bolder;
 }
-img {
-	width: 100%;
+
+
+.frequency {
+	display:block;
+	width: 300px;
 }
 
-.statusBar {
-	margin: 0 auto;
-	background-image: url(/images/statusAll.png);
+
+/* code for images */
+img {
+	width: 100%;
+
+}
+
+.entireBar {
+	margin: -5px auto;
+	display: block;
+	background-color:#1976D2;
+	height: 130px;
+}
+.statusBar{
 	background-size: cover;
+}
+.bottomBar {
+background-size:cover;
+height: 160px;
 	}
 
-	.enclose-icon {
-	display:inline-block;
-	width: 40px;
-  height: 35px;
-	padding:3px;
-	margin: 2px 0 0 100px;
+.searchcontent{
+	display: inline-block;
+	max-width: 20%;
+	margin: 0 auto;
+  padding: 40px 18px 0 25px;
 	}
 
-	.enclose-arrows {
-	display:inline-block;
+
+
+.arrowLeft1 {
+	background-size: cover;
 	width: 24px;
 	height: 24px;
-	padding: 3px;
-	margin: 0 0 10px 110px;
+	}
+
+
+.gps-icon {
+	background-size: cover;
+	width: 24px;
+	height: 24px;
+  }
+
+/* end of status and search bar */
+
+/* containers for the elements and classes */
+
+.enclose-icon {
+	float:right;
+	width: 30px;
+  height: 35px;
+  padding: 65px 25px 0;
+}
+
+.enclose-arrows {
+	float:right;
+	width: 18px;
+  height: 18px;
+  padding: 65px 30px 0;
 }
 
 .routes:hover {
   background-color: #E2E7EE;
 }
 
-
 .content{
 	display: inline-block;
-	width: 195px;
-	height:	85px;
 	margin: 1px;
+	padding-top: 5px;
+
 }
 
 .container {
   margin: 0 auto;
-  width:360px;
-	}
+  width: 360px;
+}
 
 
 .buslist {
@@ -142,8 +166,14 @@ img {
 	width: 360px;
 	box-sizing: border-box;
 }
+
 .routes{
-border-bottom: 1px solid #808080;
-clear:both;
-height: 110px;
+	margin 0 auto;
+	clear:both;
+	background-color:#f2f2f2;
+  float:left;
+	width: 360px;
+  height: 135px;
+	padding-bottom: 10px;
+  border-bottom: 1px solid #808080;
 }
