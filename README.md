@@ -1,5 +1,5 @@
-# busybusChallenge
-![busyBusImage]<img src="images/busybus.png.png" alt="busy bus">
+# Busy Bus Challenge
+<img src="images/busybus.png.png" alt="busy bus">
 
  
 
