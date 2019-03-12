@@ -1,11 +1,11 @@
 # busybusChallenge
-<img src="images/busybus.png.png" alt="busy bus">
+![busyBusImage]<img src="images/busybus.png.png" alt="busy bus">
 
-submission of busy bus mobile screen
+ 
 
 The Busy Bus challenge is the culmination of a series of checkpoint challenges I performed to create my first UX/ UI design. As part of the challenge, I was already provided the routes and the arrival frequency of the buses that service this bus stop.
 
-SYNOPSIS OF THE CHALLENGE:
+## SYNOPSIS OF THE CHALLENGE:
 
 Currently in the Chicago area, there are 7 bus lines serving the Washington and State bus stop. Although the city officials have added more bus stops to accommodate the increase in ridership, this has not solved the users problems.
 
@@ -13,7 +13,7 @@ they want to know when the next bus arrives.
 together with this, they need to know how much time do they have to be at the bus stop to be able to catch this ride.
 How can the UI components show this information?
 
-Requirements:
+**Requirements:**
 
 Code a list-view design appropriate for your chosen operating system (iOS or Android) that incorporates the guidelines for the chosen platform and the visual styling you applied to the Visual Challenge. -Incorporate the routes and arrival frequency of each bus that services the Washington and State bus stop.
 Challenges I faced in creating the list-view design.
