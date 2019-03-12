@@ -5,6 +5,8 @@
 
 The Busy Bus challenge is the culmination of a series of checkpoint challenges I performed to create my first UX/ UI design. As part of the challenge, I was already provided the routes and the arrival frequency of the buses that service this bus stop.
 
+## To see the solution to this challenge just click the link : 
+
 ## SYNOPSIS OF THE CHALLENGE:
 
 Currently in the Chicago area, there are 7 bus lines serving the Washington and State bus stop. Although the city officials have added more bus stops to accommodate the increase in ridership, this has not solved the users problems.
