@@ -5,22 +5,24 @@
 
 The Busy Bus challenge is the culmination of a series of checkpoint challenges I performed to create my first UX/ UI design. As part of the challenge, I was already provided the routes and the arrival frequency of the buses that service this bus stop.
 
-## To see the solution to this challenge just click the link : 
+## To see the solution to this challenge just click the link found above : 
 
 ## SYNOPSIS OF THE CHALLENGE:
 
 Currently in the Chicago area, there are 7 bus lines serving the Washington and State bus stop. Although the city officials have added more bus stops to accommodate the increase in ridership, this has not solved the users problems.
 
-they want to know when the next bus arrives.
-together with this, they need to know how much time do they have to be at the bus stop to be able to catch this ride.
-How can the UI components show this information?
+These frustrated users want to know when the next bus arrives. And together with this requirement, they need to know how much time do they have to be at the bus stop to be able to catch their intended rides. Currently, a lot of the bus riders miss their rides.
+
+### How can the UI components show this information?
 
 **Requirements:**
 
 Code a list-view design appropriate for your chosen operating system (iOS or Android) that incorporates the guidelines for the chosen platform and the visual styling you applied to the Visual Challenge. -Incorporate the routes and arrival frequency of each bus that services the Washington and State bus stop.
 Challenges I faced in creating the list-view design.
 
-Redesigning the screen to incorporate the list that was included for this challenge.
+I redesigned the screen using HTML & CSS to create a responsive screen. 
+
+### What follows are my reflections on how I was able to find a viable solution.
 
 How best to represent the not available and the out of service portion bus routes for instance. I was undecided if I should just place the icon   not available and the to show that if the rider wanted to get information about the particular bus line  and then to create additional screens that would explain the delays. However, I decided not to include the additional screens since these two icons are self-explanatory and in keeping with the guidelines of the Material design , which is to use these icons when more detailed information is necessary, requiring more than one sentence to clarify.  To use the information icon which when pressed, will reveal more information.
 
