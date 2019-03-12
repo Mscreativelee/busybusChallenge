@@ -1,5 +1,5 @@
 # busybusChallenge
-<img src="assets/images/busybus.png.png" alt="busy bus">
+<img src="images/busybus.png.png" alt="busy bus">
 
 submission of busy bus mobile screen
 
